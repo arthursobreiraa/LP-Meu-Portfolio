@@ -657,6 +657,10 @@ footer {
 }
 
 @media screen and (max-width: 390px) {
+  header h2 {
+    margin-right: 260px;
+  }
+
   .topo-do-site h1 {
     margin-top: -50px;
     font-size: 25px;
