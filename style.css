@@ -439,7 +439,7 @@ footer {
 
 /* Notebook */
 
-@media screen and (min-width: 835px) and (max-width: 1440px) {
+@media screen and (min-width: 836px) and (max-width: 1440px) {
   header h2 {
     margin-right: 500px;
   }
@@ -449,7 +449,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 835px) and (max-width: 1280px) {
+@media screen and (min-width: 836px) and (max-width: 1280px) {
   header h2 {
     margin-right: 400px;
   }
@@ -607,17 +607,19 @@ footer {
 
   section.topo-do-site {
     padding: 20px 8%;
+    height: 74vh;
   }
 
   .topo-do-site h1 {
     font-size: 30px;
-    margin-top: -50px;
-    margin-bottom: 50px;
+    margin-top: -40px;
+    margin-bottom: 40px;
     line-height: 35px;
   }
 
   .topo-do-site .txt-topo-site p {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    line-height: 1.9rem;
   }
 
   .section.especialidades {
@@ -689,7 +691,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 393px) {
   header h2 {
     margin-right: 260px;
   }
@@ -701,8 +703,9 @@ footer {
   }
 
   .topo-do-site .txt-topo-site p {
-    margin-top: -30px;
-    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    line-height: 1.8rem;
   }
 
   .especialidades h2,
@@ -719,7 +722,9 @@ footer {
   }
 
   .topo-do-site .txt-topo-site p {
-    margin-top: -30px;
+    margin-top: -20px;
+    margin-bottom: 40px;
     line-height: 1.8rem;
+    font-size: 1.3rem;
   }
 }
