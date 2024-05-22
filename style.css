@@ -201,18 +201,22 @@ header nav.menu-desktop ul li {
 .topo-do-site .txt-topo-site p {
   color: #fff;
   margin: 40px 0;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .btn-entre-contato button {
   padding: 10px 40px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   background-color: #005391;
   border: 0;
-  border-radius: 30px;
+  border-radius: 20px;
   cursor: pointer;
   color: #fff;
+}
+
+.topo-do-site p span {
+  color: #005391;
 }
 
 /* Animacao Img */
@@ -435,15 +439,23 @@ footer {
 
 /* Notebook */
 
-@media screen and (min-width: 835px) and (max-width: 1400px) {
+@media screen and (min-width: 835px) and (max-width: 1440px) {
   header h2 {
-    margin-right: 400px;
+    margin-right: 500px;
+  }
+
+  .topo-do-site {
+    margin-top: -1rem;
   }
 }
 
-@media screen and (min-width: 835px) and (max-width: 1285px) {
+@media screen and (min-width: 835px) and (max-width: 1280px) {
   header h2 {
-    margin-right: 300px;
+    margin-right: 400px;
+  }
+
+  .topo-do-site {
+    margin-top: 0.2rem;
   }
 }
 
@@ -474,9 +486,13 @@ footer {
   }
 
   .img-topo-site img {
-    width: 427px;
-    height: 365px;
+    width: 350px;
+    height: 265px;
     margin-top: -20px;
+  }
+
+  .topo-do-site {
+    height: 85vh;
   }
 
   .topo-do-site h1 {
@@ -485,6 +501,8 @@ footer {
 
   .topo-do-site .txt-topo-site p {
     text-align: justify;
+    margin: 3rem auto;
+    width: 40rem;
   }
 
   .btn-entre-contato {
@@ -496,10 +514,25 @@ footer {
     font-size: 25px;
   }
 
+  .especialidades .flex {
+    display: grid;
+    width: 30rem;
+    margin: 0rem auto;
+  }
+
+  .especialidades .especialidades-box p {
+    font-size: 1.5rem;
+  }
+
   .sobre .txt-sobre h2 {
     text-align: center;
     margin-top: -70px;
     margin-bottom: 50px;
+  }
+
+  .sobre .txt-sobre p {
+    font-size: 1.5rem;
+    width: 40rem;
   }
 
   .sobre .flex {
@@ -533,8 +566,8 @@ footer {
   }
 
   .img-topo-site img {
-    width: 377px;
-    height: 265px;
+    width: 300px;
+    height: 200px;
     margin-top: -50px;
   }
 }
@@ -578,7 +611,7 @@ footer {
 
   .topo-do-site h1 {
     font-size: 30px;
-    margin-top: -30px;
+    margin-top: -50px;
     margin-bottom: 50px;
     line-height: 35px;
   }
@@ -662,13 +695,13 @@ footer {
   }
 
   .topo-do-site h1 {
-    margin-top: -50px;
+    margin-top: -70px;
     font-size: 25px;
     line-height: 30px;
   }
 
   .topo-do-site .txt-topo-site p {
-    margin-top: -10px;
+    margin-top: -30px;
     margin-bottom: 30px;
   }
 
@@ -687,5 +720,6 @@ footer {
 
   .topo-do-site .txt-topo-site p {
     margin-top: -30px;
+    line-height: 1.8rem;
   }
 }
